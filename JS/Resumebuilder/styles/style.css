@@ -1,0 +1,143 @@
+body{
+	font-family: 'Open Sans';
+	background: #fff;
+}
+fieldset{
+	background: #e9e9e9;
+}
+legend{
+	font-size: 1.5em;
+	font-weight: 600;
+}
+h1{
+	text-transform: uppercase;
+	font-family: 'arvo';
+	font-weight: bold;
+	color: #2082b0;
+}
+label{
+	display: block;
+}
+label span{
+	font-size: .5em;
+	color: red;
+}
+button{
+	padding: 5px;
+	margin:5px 0 20px 0;
+	font-size: 1em;
+}
+.positiveAction, .negativeAction{
+	color: #fff;
+	font-weight: bold;
+	display: block;
+}
+.negativeAction{
+	background: red;
+}
+.positiveAction{
+	display: inline-block;
+	margin: 20px 0 0 0;
+	padding: 10px;
+	text-decoration: none;
+	background: green;
+	text-transform: uppercase;
+	text-align: center;
+}
+.erroneous{
+	border:solid 1px red;
+}
+.muted{
+	font-size: 11px;
+}
+/*resume builder*/
+.cvBuilder #resume_preview .heading{
+	background-repeat:  no-repeat!important;
+	background-position:  left -10px!important;
+	text-indent: 75px!important;
+	/*padding-left: 60px;*/
+}
+
+.cvBuilder #resume_preview.designer .heading{
+	background-image: url(../images/designer-brush.png);
+	/*padding-left: 60px;*/
+}
+
+.cvBuilder #resume_preview.dev .heading{
+	background-image: url(../images/dev-braces.png);
+	background-position:  15px 15px!important;
+	/*padding-left: 60px;*/
+}
+
+.cvBuilder form, .cvBuilder #resume_preview{
+	float: left;
+	width: 40%;
+}
+
+.cvBuilder #resume_preview{
+	-webkit-box-shadow: 0px -2px 13px 1px rgba(128,128,128,1);
+	-moz-box-shadow: 0px -2px 13px 1px rgba(128,128,128,1);
+	box-shadow: 0px -2px 13px 1px rgba(128,128,128,1);
+}
+
+.cvBuilder #resume_preview{
+	position: relative;
+	width: 55%;
+	min-height: 100px;
+	margin-left: 10px;
+	padding:0;
+	border:solid 5px #ccc;
+}
+.cvBuilder #resume_preview > h4, .cvBuilder #resume_preview .heading, .cvBuilder #resume_preview .skills{
+	background: #f0f0f0;
+}
+.cvBuilder #resume_preview > h4, .cvBuilder #resume_preview h3{
+	font-family: 'arvo';
+}
+
+.cvBuilder #resume_preview h3, .cvBuilder #resume_preview h5, .cvBuilder #resume_preview .objective, .cvBuilder #resume_preview .skillList, .cvBuilder #resume_preview .footer{
+	padding: 10px;
+}
+
+.cvBuilder #resume_preview h3{
+	font-size: 2em;
+	color: #309bee;
+	margin: 0;
+	padding-bottom: 0;
+}
+.cvBuilder #resume_preview h5{
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+.cvBuilder #resume_preview h4{
+	margin: 0;
+	padding: 0;
+}
+.cvBuilder #resume_preview .objective{
+	font-size: .9em;
+	font-style: italic;
+}
+.cvBuilder #resume_preview .skillList ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.cvBuilder #resume_preview .skillList li{
+	padding: 10px;
+	vertical-align: middle;
+}
+.cvBuilder #resume_preview .skillList li .rating{
+	display: inline-block;
+	padding-left: 20px;
+	width: 170px;
+	height: 30px;
+	background: url(../images/starratings.png) no-repeat center center;
+}
+.cvBuilder #resume_preview .footer ul{
+	list-style: none;
+}
+.cvBuilder #resume_preview .footer li{
+	display: inline-block;
+	padding-right: 10px;
+}

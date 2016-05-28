@@ -1,0 +1,40 @@
+/* global rules */
+
+body{
+	font-family: arial;
+}
+
+.group{
+	border:solid 1px #ddd;
+	padding: 10px;
+	margin:0 0 20px 0;
+	background: #eee;
+}
+
+.black{
+	background:black;
+}
+.red{
+	background:red;
+}
+.orange{
+	background:orange;
+}
+.yellow{
+	background:yellow;
+}
+.purple{
+	background:purple;
+}
+
+/* forms  */
+.positive{
+	padding:10px;
+	background: green;
+	color: #fff;
+}
+.negative{
+	padding:10px;
+	background: red;
+	color: #fff;
+}

@@ -1,0 +1,117 @@
+	<!doctype html>
+<head>
+<title>Build your resume</title>
+<link href="styles/style.css" rel="stylesheet" type="text/css" />
+<!--<link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>-->
+</head>
+<body class="cvBuilder">
+	<h1>Resume builder</h1>
+  	<form action="" name="resumeForm" id="resume_form">
+  	<fieldset>
+  		<legend>Get set go!</legend>
+  		<h4>Are you a</h4>
+
+			<input type="file" id="take-picture" accept="image/*">
+
+  		<!-- setting scope of the profession -->
+  		<fieldset id="profession_radiogroup">
+  		<label for="designer">
+	  		<input type="radio" name="whoareu" id="designer">
+	  		Designer
+	  	</label>
+  		<label for="dev">
+	  		<input type="radio" name="whoareu" id="dev">
+	  		Dev
+	  	</label>
+  		<label for="others">
+	  		<input type="radio" name="whoareu" id="others">
+	  		Others
+	  	</label>
+	  	</fieldset>
+
+			<!-- available for hire ? -->
+			<label for="ready_for_hire">
+	  		<input type="checkbox" name="readyforhire" id="ready_for_hire">
+	  		Are you open for hire
+	  	</label>
+
+  		<h4>Basic Info</h4>
+  		<fieldset id="basic_info">
+  		<label for="input_name">Name
+	  		<input type="text" name="name" id="input_name"  class="required">
+	  	</label>
+  		<label for="input_experience">Experience (Yrs)
+	  		<input type="text" name="experience" id="input_experience"  class="required">
+	  	</label>
+  		<label for="input_objective">Career Objective
+	  		<textarea name="objective" id="input_objective"  class="required"></textarea>
+	  	</label>
+	  	</fieldset>
+  		<h4>Skills</h4>
+  		<fieldset id="skills">
+  		<label for="input_skill1"><input type="text" name="skill1" id="input_skill1"  class="required" placeholder="Enter skill here">
+	  		<select name="s1rating">
+	  			<option value="default">Rate yourself</option>
+	  			<option value="one">1</option>
+	  			<option value="two">2</option>
+	  			<option value="three">3</option>
+	  			<option value="four">4</option>
+	  			<option value="five">5</option>
+	  		</select>
+	  	</label>
+	  	<button type='button' id="add_skill">+ Add new skill</button>
+  		</fieldset>
+			<h4>Social media</h4>
+			<fieldset id="social_media">
+  		<label for="input_skill1">Facebook
+	  		<input type="text" name="skill1" id="input_skill1"  class="required">
+	  	</label>
+  		<label for="input_skill1">Google+
+	  		<input type="text" name="skill1" id="input_skill1"  class="required">
+	  	</label>
+  		<label for="input_skill1">Linkedin
+	  		<input type="text" name="skill1" id="input_skill1"  class="required">
+	  	</label>
+  		<label for="input_skill1">Twitter
+	  		<input type="text" name="skill1" id="input_skill1"  class="required">
+	  	</label>
+			</fieldset>
+	  	<div>
+	  		<a href="#" id="btn_signup" class="positiveAction">Signup</a>
+	  	</div>
+  	</fieldset>
+  </form>
+  <div id="resume_preview">
+		<h4>Get started by adding details to the form on your left!</h4>
+		<!--
+  	<div class="heading">
+			<h3>Ranjith kumar</h3>
+			<h5>UX Designer with 15 years of experience</h5>
+		</div>-->
+		  	<!--
+		<p class="objective">
+			A User-Experience designer with a strong passion for design and code, I have over time developed a strong passion in building Digital Experiences that work, and in building hi-performing UX teams from scratch. The unified goal and challenges that a productive team offers is simply unbeatable!
+		</p>
+		<div class="skillList">
+			<ul>
+				<li><span>Adobe Photoshop</span><span class="rating"></span></li>
+				<li><span>Adobe Illustrator</span><span class="rating"></span></li>
+				<li><span>HTML</span><span class="rating"></span></li>
+				<li><span>CSS</span><span class="rating"></span></li>
+				<li><span>JS</span><span class="rating"></span></li>
+			</ul>
+		</div>
+		<div class="footer">
+			<ul>
+				<li><a href="#">Facebook</a></li>
+				<li><a href="#">Twitter</a></li>
+				<li><a href="#">Google+</a></li>
+				<li><a href="#">Linkedin</a></li>
+			</ul>
+		</div>
+	-->
+  </div>
+	<script src="scripts/resumebuilder.js" type="text/Javascript"></script>
+</body>
+</html>
